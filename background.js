@@ -1,0 +1,1 @@
+window.location = 'https://play.google.com/music/listen?u=0#/sr/' + encodeURI(document.getElementsByClassName('primary-title')[0].innerText + " " + document.getElementsByClassName('secondary-title')[0].innerText);

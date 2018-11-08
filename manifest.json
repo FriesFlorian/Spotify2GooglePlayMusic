@@ -1,0 +1,10 @@
+ {
+  "name": "Spotify2GooglePlayMusic",
+  "version": "1.0",
+  "description": "Just redirects any spotify shared links to a google play music search with the same content",
+  "manifest_version": 2,
+  "content_scripts": [ {
+    "js": [ "background.js" ],
+    "matches": [ "https://open.spotify.com/*"]
+  }]
+}
